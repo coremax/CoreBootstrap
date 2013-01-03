@@ -10,6 +10,7 @@
         "bootstrap"
     ],
     "homepage": "http://www.coremax.com.br/",
+    "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Nidelson Gimenes",
