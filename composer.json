@@ -1,0 +1,32 @@
+{
+    "name": "coremax/core-bootstrap",
+    "description": "Provides ZF2 integration with Twitter Bootstrap using RWOverdijk/AssetManager and many view helpers.",
+    "type": "library",
+    "keywords": [
+        "coremax",
+        "module",
+        "zf2",
+        "twitter",
+        "bootstrap"
+    ],
+    "homepage": "http://www.coremax.com.br/",
+    "authors": [
+        {
+            "name": "Nidelson Gimenes",
+            "email": "nidelson@coremax.com.br"
+        },
+        {
+            "name": "Daniel Gimenes",
+            "email": "daniel@coremax.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*",
+    },
+    "autoload": {
+        "psr-0": {
+            "CoreBootstrap\\": "src/"
+        }
+    }
+}
