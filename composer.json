@@ -27,7 +27,8 @@
     },
     "autoload": {
         "psr-0": {
-            "CoreBootstrap\\": "src/"
+            "CoreBootstrap": "src/",
+            "CoreBootstrapTest": "test/"
         }
     }
 }
