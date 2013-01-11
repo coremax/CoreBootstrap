@@ -21,9 +21,11 @@
             "email": "daniel@coremax.com.br"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendframework": "2.*"
+        "zendframework/zendframework": "2.*",
+        "rwoverdijk/assetmanager": "dev-master"
     },
     "autoload": {
         "psr-0": {
