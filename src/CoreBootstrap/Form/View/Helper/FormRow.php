@@ -146,7 +146,7 @@ class FormRow extends \Zend\Form\View\Helper\FormRow
                         $options[$key]['label_attributes']['class'] = ($type == 'radio') ? 'radio' : 'checkbox';
                         $options[$key]['label_attributes']['class'] .= (in_array($formStyle, $this->compactFormStyles)) ? ' inline' : null;
                     } else {
-                        $options[$key]['label_attributes']['class'] .= ($type == 'radio') ? 'radio' : 'checkbox';
+                        $options[$key]['label_attributes']['class'] = ($type == 'radio') ? 'radio' : 'checkbox';
                         $options[$key]['label_attributes']['class'] .= (in_array($formStyle, $this->compactFormStyles)) ? ' inline' : null;
                     }
                 }
