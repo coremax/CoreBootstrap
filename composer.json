@@ -25,7 +25,7 @@
     "require": {
         "php": ">=5.3.3",
         "zendframework/zendframework": "2.*",
-        "rwoverdijk/assetmanager": "1.*"
+        "rwoverdijk/assetmanager": "dev-master"
     },
     "autoload": {
         "psr-0": {
